@@ -22,7 +22,7 @@ const home =require('./route/home');
 const admin =require('./route/admin');
 
 app.use('/home',home);
-app.use('/admin',admin);
+app.use('/abc',admin);
 //监听端口
 app.listen(80);
 console.log('网站服务器启动成功，请访问localhost')
