@@ -6,6 +6,14 @@ const path=require('path');
 //创建网站服务器
 const app=express();
 
+//express 框架模板所在的位置
+app.set('views',path.join(__dirname,'views'))
+//设置默认后缀
+app.set('view engine','art');
+//设置模板引擎
+app.engine('art',require('express-art-template'));
+
+
 //开放静态资源文件
 app.use(express.static(path.join(__dirname,'public')));
 
