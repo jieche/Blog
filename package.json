@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/jieche/Blog/issues"
   },
-  "homepage": "https://github.com/jieche/Blog#readme"
+  "homepage": "https://github.com/jieche/Blog#readme",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "express": "^4.18.1",
+    "express-art-template": "^1.0.1",
+    "mongoose": "^6.5.1"
+  }
 }
